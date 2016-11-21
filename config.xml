@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.binoze.phonegaptest"
+        versionCode = "10"
+        version     = "1.0.0" >
+
+    <name>PhoneGap Test</name>
+
+    <description>
+        An example for phonegap build docs.
+    </description>
+
+    <author href="https://github.com/binouze" email="benjamin.bouffier@gmail.com">
+        Benjamin BOUFFIER
+    </author>
+
+    <platform name="ios" />
+    <platform name="android" />
+    <platform name="winphone" />
+</widget>
