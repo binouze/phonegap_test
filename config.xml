@@ -1,21 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns   = "http://www.w3.org/ns/widgets"
-        xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.binoze.phonegaptest"
-        versionCode = "10"
-        version     = "1.0.0" >
-
-    <name>PhoneGap Test</name>
-
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.binouze.pgtest" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>test</name>
     <description>
-        An example for phonegap build docs.
+        A blank PhoneGap app.
     </description>
-
-    <author href="https://github.com/binouze" email="benjamin.bouffier@gmail.com">
-        Benjamin BOUFFIER
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
     </author>
+    <content src="index.html" />
+    <access origin="*" />
 
-    <platform name="ios" />
-    <platform name="android" />
-    <platform name="winphone" />
+    <preference name="orientation" value="portrait" />
 </widget>
